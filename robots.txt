@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://siyulou.github.io/sitemap.xml
+Sitemap: https://SiyuLou.github.io/sitemap.xml
