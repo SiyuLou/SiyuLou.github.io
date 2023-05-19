@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Siyu Lou is currently a Ph.D. student at Shanghai Jiao Tong University and Eastern Institute for Advanced Study, supervised by [Prof. Quanshi Zhang](http://qszhang.com/) and Prof. Yuntian Chen. Her research interest lies at the intersection of data-driven machine learning models and the broader fields of science, with the aim of developing transparent and interpretable model that can provide insights into complex systems.
+Siyu Lou is currently a Ph.D. student at Shanghai Jiao Tong University and Eastern Institute for Advanced Study, supervised by [Prof. Quanshi Zhang](http://qszhang.com/) and Prof. Yuntian Chen. Her research interest lies at the intersection of data-driven machine learning models and the broader fields of science, with the aim of developing transparent and interpretable models that can provide insights into complex systems.
 
 Prior to her Ph.D. study, Siyu worked as a research assistant at the Cross Media Language Intelligence Lab for one year, under the supervision of Prof. Mengyue Wu. Her work there primarily focused on cross modal learning.
 
