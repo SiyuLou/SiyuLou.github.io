@@ -217,7 +217,6 @@
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
             <a href="/assets/pdf/" class="btn btn-sm z-depth-0" role="button">PDF</a>
-            <a href="" class="btn btn-sm z-depth-0" role="button">Code</a>
           </div>
           
           <div class="badges">
@@ -299,7 +298,23 @@
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">ICML</abbr></div>
+        <div class="col-sm-2 preview">
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/Bayesian-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/Bayesian-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/Bayesian-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/publication_preview/Bayesian.png" class="preview z-depth-1 rounded" width="auto" height="auto" alt="Bayesian.png" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+</div>
 
         <!-- Entry bib key -->
         <div id="ren2023bayesian" class="col-sm-8">
@@ -323,6 +338,9 @@
 
           <!-- Links/Buttons -->
           <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="/assets/pdf/Bayesian.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+            <a href="https://github.com/sjtu-xai-lab/BNN-concepts" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
           </div>
           
           <div class="badges">
@@ -330,7 +348,10 @@
               <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
-          
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>In this paper, we focus on mean-field variational Bayesian Neural Networks (BNNs) and explore the representation capacity of such BNNs by investigating which types of concepts are less likely to be encoded by the BNN. It has been observed and studied that a relatively small set of interactive concepts usually emerge in the knowledge representation of a sufficiently-trained neural network, and such concepts can faithfully explain the network output. Based on this, our study proves that compared to standard deep neural networks (DNNs), it is less likely for BNNs to encode complex concepts. Experiments verify our theoretical proofs. Note that the tendency to encode less complex concepts does not necessarily imply weak representation power, considering that complex concepts exhibit low generalization power and high adversarial vulnerability. </p>
+          </div>
         </div>
       </div>
 </li>
@@ -425,6 +446,7 @@
 
           <!-- Links/Buttons -->
           <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
           </div>
           
           <div class="badges">
@@ -432,7 +454,10 @@
               <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
-          
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Parkinson’s disease (PD) is a nervous disorder that can cause motor impairment. PD severity assessment based on a series of motor movements illustrated in Unified Parkinson’s Disease Rating Scale (UPDRS) is an important part of clinical PD diagnosis. However, the current quantifying method heavily relies on human observation, which is time-consuming and subjective. Therefore, automatic severity estimation stemming from machine learning methods is receiving an increasing amount of research attention. However, these advances are still limited by data availability and interpretability. In this paper, we release a large PD motor dataset of over 300 real PD patients collected under doctors’ instructions and propose a pipeline to automatically quantify the motor severity of PD in finger tapping and postural stability. These two selected movements are representative of local and global motor control, exhibiting great clinical importance. The pipeline contains three-stage: pose estimation, domain knowledge extraction, and classification stage. The pose estimation uses deep-learning-based methods to extract 21 and 17 key points for finger tapping and postural stability respectively. The domain knowledge extraction stage extracts several explicit features pre-defined by experienced neuro-physicians. Finally, a classifier is trained to infer PD severity under MDS-UPDRS. To combine deep-learning-based features from pose estimation and domain features from the expert, the pipeline achieves a better trade-off between the model efficiency and clinical interpretability. Experiments show that our method achieves a micro average f1-score of 88%, 84%, and 84%, respectively on left finger tapping, right finger tapping, and postural stability, outperforming previous methods by a large margin. In addition, involving expert knowledge in the feature extraction stage greatly improves our model’s interpretability, which is essential in automatic PD detection.</p>
+          </div>
         </div>
       </div>
 </li>
@@ -466,6 +491,7 @@
 
           <!-- Links/Buttons -->
           <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
           </div>
           
           <div class="badges">
@@ -473,7 +499,10 @@
               <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
-          
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>The performance of many advanced materials is determined by the arrangement of their nanostructure which requires ever more precise characterization. In this respect, X-ray computed tomography (CT) is a powerful technique to investigate material properties as it provides non-destructive direct access to three-dimensional morphology with nanoscale resolution. However, challenges remain in clearly understanding physical mechanisms involved during their processing in real time and real conditions. So far, beam and sample stabilities, effective spatial resolution and tomography scan time have hindered the development of nanoscale in situ 4D imaging (3D plus time), and especially at high temperatures. Here, we report on the development of fast X-ray nanotomography at temperatures up to 700°C with an unprecedented combination of nanometer pixel size and acquisition times of a few tens of seconds. The great potential of the method is demonstrated by following the early stages of two thermally driven phenomena: neck curvature evolution in sintering and nucleation of liquid droplets in light alloys. The reported real time observations will benefit the fundamental understanding of the underlying physics and provide useful data to build new models. The novel aspects of this synchrotron based technique offer a powerful imaging tool for a wide variety of heterogeneous nanoscale dynamics in materials and open new perspectives for the investigation of advanced materials under realistic conditions.</p>
+          </div>
         </div>
       </div>
 </li></ol>
@@ -506,6 +535,7 @@
 
           <!-- Links/Buttons -->
           <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
           </div>
           
           <div class="badges">
@@ -513,7 +543,10 @@
               <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
-          
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>The increasing demand for bone repair solutions calls for the development of efficacious bone scaffolds. Biphasic calcium phosphate (BCP) scaffolds with both macropores and micropores (MP) have improved healing compared to those with macropores and no micropores (NMP), but the role of micropores is unclear. Here, we evaluate capillarity induced by micropores as a mechanism that can affect bone growth in vivo. Three groups of cylindrical scaffolds were implanted in pig mandibles for three weeks: MP were implanted either dry (MP-Dry), or after submersion in phosphate buffered saline, which fills pores with fluid and therefore suppresses micropore-induced capillarity (MP-Wet); NMP were implanted dry. The amount and distribution of bone in the scaffolds were quantified using micro-computed tomography. MP-Dry had a more homogeneous bone distribution than MP-Wet, although the average bone volume fraction, BVF, was not significantly different for these two groups (0.45±0.03 and 0.37±0.03, respectively). There was no significant difference in the radial bone distribution of NMP and MP-Wet, but the BVF of NMP was significantly lower among the three groups (0.25±0.02). These results suggest that micropore-induced capillarity enhances bone regeneration by improving the homogeneity of bone distribution in BCP scaffolds. The explicit design and use of capillarity in bone scaffolds may lead to more effective treatments of large and complex bone defects.</p>
+          </div>
         </div>
       </div>
 </li></ol>
